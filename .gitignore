@@ -1,0 +1,9 @@
+.vs/
+dist
+node_modules
+dist
+.env
+package-lock.json
+tsconfig.tsbuildinfo
+yarn.lock
+*.pyc
