@@ -80,7 +80,7 @@ async function UploadS3(key, body, userFolder) {
 }
 
 const uploadSandboxFiles = async(dbArray, sandboxFolderPath) => {
-    for (i = 0; i < 2; i++) {
+    for (i = 0; i < dbArray.length; i++) {
         const email = dbArray[i].email
         const fileName = dbArray[i].result.filename
         const filePath = path.join(sandboxFolderPath, fileName)
